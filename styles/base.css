@@ -1,0 +1,84 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    display: grid;
+    height: 100vh;
+    /* grid-template-columns: auto auto 1fr auto;
+    grid-template-rows: auto auto 1fr auto; */
+    padding: 35px;
+    background-color: aliceblue;
+}
+header {
+    background-color: rgb(44, 88, 124);
+    display: grid;
+    grid-template-columns: 450px auto;
+}
+span{
+    text-align: left;
+    color: white;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding: 10px;
+}
+/* h1{
+    text-align: center;
+} */
+nav{
+    display: flex;
+    padding: 35px 0;
+    justify-content: space-around;
+    background-color: black;
+    list-style-type: disc;
+}
+nav a {
+    color: azure;
+    text-decoration: none;
+    padding: 35px;
+}
+nav li a {
+    display: block;
+    text-align: center;
+    padding: 10%;
+}
+h3{
+    background-color: rgb(44, 88, 124);
+    color: white;
+    text-align: center;
+}
+.card{
+    display: block;
+    align-items: center;
+    text-align: center;
+    border: solid gray;
+    /* border-top: 2px inset; */
+    margin: 35px;
+    border-radius: 5px;
+}
+/* #card{
+    display: block;
+    align-items: center;
+    text-align: center;
+    margin: 35px; 
+}*/
+footer{
+    display: block;
+    text-align: center;
+    background-color: rgb(44, 88, 124);
+    color: white;
+}
+main h2{
+    text-align: center;
+    /* text-decoration: underline; */
+}
+main li a{
+    display: block;
+    text-align: left;
+    list-style-type: none;
+}
